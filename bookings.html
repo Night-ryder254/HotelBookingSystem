@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings - Hotel Booking System</title>
+    <link rel="stylesheet" href="hotel-booking-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>My Bookings</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="bookings.html">My Bookings</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contacts</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    <main id="search-form"></main>
+
+    <div class="form-container">
+        <h2>Complete your booking</h2>
+        <form id="bookingForm" action="bookRoom.php" method="POST">
+            <label for="room_id">Room ID:</label>
+            <input type="text" id="room_id" name="room_id" required readonly>
+
+            <label for="check_in">Check-in Date:</label>
+            <input type="date" id="check_in" name="check_in" required>
+
+            <label for="check_out">Check-out Date</label>
+            <input type="date" id="check_out" name="check_out" required>
+
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

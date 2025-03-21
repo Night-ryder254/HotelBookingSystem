@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms - Hotel Booking System</title>
+    <link rel="stylesheet" href="hotel-booking-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Our Rooms</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="bookings.html">My Bookings</a>
+            <a href="contact.html">Contacts</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    <main id="room-list">
+        <!-- Rooms will be dynamically loaded here-->
+    </main>
+
+    <section class="room-lists">
+        <div class="room">
+            <img src="rooms images/room_09.jpg" alt="Single Room" width="400px", height="200px" >
+            <h3>Single Room</h3>
+            <p>Description: Cozy room for one with a comfy bed.</p>
+            <ul>
+                <li><i class="fas fa-wifi"></i> Free WiFi</li>
+                <li><i class="fas fa-tv"></i> Smart TV</li>
+                <li><i class="fas fa-coffee"></i> Coffee Maker</li>
+            </ul>
+            <p class="price">Price: Ksh 5,000/night</p>
+        </div>
+        <div class="room">
+            <img src="rooms images/Hotel-Baker-72-double-room-slide-1.jpg" alt="Double Room" width="400px", height="200px">
+            <h3>Double Room</h3>
+            <p>Description: Spacious room suitable for two.</p>
+            <ul>
+                <li><i class="fas fa-wifi"></i> Free WiFi</li>
+                <li><i class="fas fa-tv"></i> Smart TV</li>
+                <li><i class="fas fa-coffee"></i> Coffee Maker</li>
+                <li><i class="fas fa-bath"></i> Private Bathroom</li>
+            </ul>
+            <p class="price">Price: Ksh 10,000/night</p>
+        </div>
+        <div class="room">
+            <img src="rooms images/caption.jpg" alt="Suite Room" width="300px", height="200px">
+            <h3>Suite Room</h3>
+            <p>Description: Luxurious room</p>
+            <ul>
+                <li><i class="fas fa-wifi"></i> Free WiFi</li>
+                <li><i class="fas fa-tv"></i> Smart TV</li>
+                <li><i class="fas fa-coffee"></i> Coffee Maker</li>
+                <li><i class="fas fa-bath"></i> Jacuzzi</li>
+                <li><i class="fas fa-couch"></i> Living Area</li>
+            </ul>
+            <p class="price">Price: Ksh 15,000/night</p>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
